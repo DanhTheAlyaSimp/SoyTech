@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    height: 7.5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 3.0625rem;
+    background-color: var(--pink-200);
+}
+
+.header a{
+    font-family: "ITC Avant Garde Gothic";
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.navigation{
+    display: flex;
+    gap: 2.5rem;
+}
