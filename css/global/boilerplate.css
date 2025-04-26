@@ -20,9 +20,10 @@
 body{
     width: 100vw;
     margin: 0;
+    background-color: var(--pink-100);
 }
 
-h1,h2,h3,p{
+h1,h2,h3,h4,p,a{
     font-family: "ITC Avant Garde Gothic";
     color: var(--text);
 }
@@ -41,10 +42,17 @@ h2{
     font-size: 4rem;
 }
 
-a{
-
-}
-
 .wrapper{
     padding-inline: 5rem;
+}
+
+.avatar{
+    display: block;
+    border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-size: var(--subheading-1);
+    font-weight: 100 !important;
 }

@@ -1,0 +1,28 @@
+.hero{
+    display: flex;
+}
+
+.hero h1{
+    margin: 0;
+}
+
+.hero.wrapper{
+    width: 100%;
+    padding-block: 22px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20;
+}
+
+.hero img{
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    justify-self: flex-end;
+}
+
+.hero__text{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
